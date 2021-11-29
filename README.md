@@ -3,7 +3,7 @@ This is My first repository
 
 這是GitHub練習
 
-[GitHub連結]https://github.com/Berg0301
+[GitHub連結](https://github.com/Berg0301)
 
 
 這是個人資料
