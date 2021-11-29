@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function DisplayInput()
+    {
+        var nWNumber = document. getElementById("wnum").value;
+        if (nWNumber%2==0)
+            alert("偶數");
+        else if(nWNumber%2==1)
+            alert("奇數");
+            else
+            alert("輸入錯誤");
+    }
+    
+    function ShowResult(){
+        var nWNumber = document. getElementById("wnum").value;
+        if (nWNumber%2==0)
+        document.getElementById("result").innerHTML = String="偶數";
+        else if(nWNumber%2==1)
+        document.getElementById("result").innerHTML = String="奇數";
+            else
+            document.getElementById("result").innerHTML = String="輸入錯誤";
+    }
+
+</script>
+<body>
+    
+<label> Pleasa input a whole number<label></label>
+<input type="test" id="wnum"> <br><br>
+<button type="button" onclick="DisplayInput(),ShowResult();">Submit</button>
+
+<p id="result">display result here</p>
+</body>
+</html>
